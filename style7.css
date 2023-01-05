@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: FiraGo-Regular;
+    src: url(FiraGO-Regular.woff);
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F5;
+    padding:0px;
+    margin: 0px;
+   
+}
+.block{
+    background-color: #FFFFFF;
+    padding: 35px  108px 90px 109px;
+}
+h2{
+    font-family: FiraGo-Regular;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.user-list{
+    font-family: FiraGo-Regular;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-top: 0px; 
+}
+.table-1{
+    font-family: FiraGo-Regular;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+   
+}
+
+.table-1 thead{
+    background-color:#FFFFFF;
+    height: 65px;
+
+    border: 1px solid #EDEDED;
+
+}
+.table-1 tbody {
+    background-color:  #FAFAFA;
+    height: 84px;
+    border: 1px solid #EDEDED;
+}
+.table-1 th{
+    font-family: FiraGo-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-left: 25px;
+    padding-top:23px;
+    padding-bottom: 23px;
+    
+}
+#d1 {
+   padding-left: 48px;
+}
+
+.table-1 td .input-1{
+    width: 359px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    margin-right:22px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    padding-left: 24px;
+}
+.table-1 td .input-2{
+    width: 266px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    padding-left: 24px;
+    margin-right:25px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+.table-1 td .input-3{
+    width: 217px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    padding-left: 24px;
+    margin-right:79px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+input::placeholder{
+    font-family: FiraGo-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color:  #E8E8E8;
+   padding-top:16px;
+   padding-bottom: 15px;
+  
+}
+.table-1 td .btn-search{
+    width: 141px;
+    height: 50px; 
+    background: #FFDD04;
+    border-radius: 10px;
+    border: 0px solid transparent;
+
+    margin-right:39px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+a{
+    font-family: FiraGo-Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+.block-1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    margin-top: 44px;
+    margin-bottom: 1px;
+    width: 100%;
+}
+.btn-user{
+  
+    background: #FFDD04;
+    border-radius: 10px;
+    border: 1px solid transparent;
+   
+    width: 141px;
+    height: 40px;
+}
+.main-table{
+    font-family: FiraGo-Regular;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+.main-table thead{
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    
+}
+.main-table tbody{
+    background: #FAFAFA;
+}
+
+
+.main-table td{
+    font-family: FiraGo-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    height:65px;
+    color: #000000;
+    padding-left: 25px;
+    padding-top:23px;
+    padding-bottom: 23px;
+}
+.main-table th{
+    font-family: FiraGo-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-left: 25px;
+    padding-top:23px;
+    padding-bottom: 23px;
+
+}
+.main-table tr{
+    border: 1px solid #EDEDED;
+}
+.head-1 > th:nth-child(4) {
+    text-align: left;
+    padding-left:48px;
+}
+.head-2 > th:nth-child(6) {
+    text-align: center;
+}
+.delete {
+    width: 93px;
+    height: 33px;
+    background: #FF8271;
+    border-radius: 10px;
+    border: 0px solid transparent;
+}
+.edit{
+    width: 93px;
+    height: 33px;
+    border: 0px solid transparent;
+    background: #FFDD04;
+    border-radius: 10px;
+    margin-left:6px;
+    margin-right:8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.d1 tr > td:nth-child(6) {
+   align-items: center;
+   justify-content: center;
+   display: flex;
+}
